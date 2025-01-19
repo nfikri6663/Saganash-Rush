@@ -1,6 +1,6 @@
 if move_x != 0{
     image_speed = 1
-    image_xscale = sign(move_x)
+    flip = sign(move_x)*image_xscale
 }else{
     image_speed = 0
     image_index = 0
